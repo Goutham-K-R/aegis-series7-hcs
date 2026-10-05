@@ -1,0 +1,479 @@
+[
+  {
+    "question": "What must be true before starting the Hydraulic Power Unit?",
+    "decision": "CONFLICTED",
+    "retrieved_evidence_ids": [
+      "023efb97-28af-4b9d-84c9-2d2c23732c5e",
+      "2f8618d1-ab8e-45ae-9bdf-b155cc9364ae",
+      "1e81b746-c2a8-4377-bedf-32b04101869a",
+      "58afbe5f-6bdf-4172-abf1-8c45babdcbda",
+      "7a6a73fb-9ed6-4147-a22d-8dd4e8c0eb4f"
+    ],
+    "claims": [
+      {
+        "text": "Conflicting evidence found in document 3936fdf4-cd75-4c26-93cd-60f48c898cd8",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "023efb97-28af-4b9d-84c9-2d2c23732c5e"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 3936fdf4-cd75-4c26-93cd-60f48c898cd8",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "2f8618d1-ab8e-45ae-9bdf-b155cc9364ae"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 1c56476e-62df-48c0-a2b4-29cc7e3e9e3d",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "1e81b746-c2a8-4377-bedf-32b04101869a"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 8713d248-fa6d-45f7-8324-343ab8e3bf58",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "58afbe5f-6bdf-4172-abf1-8c45babdcbda"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 8713d248-fa6d-45f7-8324-343ab8e3bf58",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "7a6a73fb-9ed6-4147-a22d-8dd4e8c0eb4f"
+        ],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "CONFLICTED"
+  },
+  {
+    "question": "What is the current normal operating pressure for the HPU, and under what conditions does that apply?",
+    "decision": "CONFLICTED",
+    "retrieved_evidence_ids": [
+      "023efb97-28af-4b9d-84c9-2d2c23732c5e",
+      "2f8618d1-ab8e-45ae-9bdf-b155cc9364ae",
+      "1e81b746-c2a8-4377-bedf-32b04101869a",
+      "58afbe5f-6bdf-4172-abf1-8c45babdcbda",
+      "7a6a73fb-9ed6-4147-a22d-8dd4e8c0eb4f"
+    ],
+    "claims": [
+      {
+        "text": "Conflicting evidence found in document 3936fdf4-cd75-4c26-93cd-60f48c898cd8",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "023efb97-28af-4b9d-84c9-2d2c23732c5e"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 3936fdf4-cd75-4c26-93cd-60f48c898cd8",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "2f8618d1-ab8e-45ae-9bdf-b155cc9364ae"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 1c56476e-62df-48c0-a2b4-29cc7e3e9e3d",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "1e81b746-c2a8-4377-bedf-32b04101869a"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 8713d248-fa6d-45f7-8324-343ab8e3bf58",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "58afbe5f-6bdf-4172-abf1-8c45babdcbda"
+        ],
+        "valid": true
+      },
+      {
+        "text": "Conflicting evidence found in document 8713d248-fa6d-45f7-8324-343ab8e3bf58",
+        "type": "CONFLICT",
+        "evidence_ids": [
+          "7a6a73fb-9ed6-4147-a22d-8dd4e8c0eb4f"
+        ],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "CONFLICTED"
+  },
+  {
+    "question": "What does alarm A17 indicate, and what are its possible causes?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Is PS-04 the same component as PS-04A?",
+    "decision": "VERIFIED",
+    "retrieved_evidence_ids": [
+      "ecd0030b-3369-4c6f-bbc6-82024ce5945e",
+      "b0a4f15c-0749-478f-9e5b-df49cae6d360",
+      "350e0fd0-c67c-4b73-9821-12b11e5f440a",
+      "248d5e33-b213-45fd-8c1e-819bf0fd053a"
+    ],
+    "claims": [
+      {
+        "text": "PS-04 firmware_applicability: 3.2.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "ecd0030b-3369-4c6f-bbc6-82024ce5945e"
+        ],
+        "valid": true
+      },
+      {
+        "text": "PS-04A firmware_applicability: 3.2.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "b0a4f15c-0749-478f-9e5b-df49cae6d360"
+        ],
+        "valid": true
+      },
+      {
+        "text": "PS-04 replaced_by: PS-04A.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "350e0fd0-c67c-4b73-9821-12b11e5f440a"
+        ],
+        "valid": true
+      },
+      {
+        "text": "PS-04A maximum_pressure: 200 bar.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "248d5e33-b213-45fd-8c1e-819bf0fd053a"
+        ],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "VERIFIED"
+  },
+  {
+    "question": "Which document introduced the change from PS-04 to PS-04A?",
+    "decision": "VERIFIED",
+    "retrieved_evidence_ids": [
+      "ecd0030b-3369-4c6f-bbc6-82024ce5945e",
+      "b0a4f15c-0749-478f-9e5b-df49cae6d360",
+      "350e0fd0-c67c-4b73-9821-12b11e5f440a",
+      "248d5e33-b213-45fd-8c1e-819bf0fd053a"
+    ],
+    "claims": [
+      {
+        "text": "PS-04 firmware_applicability: 3.2.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "ecd0030b-3369-4c6f-bbc6-82024ce5945e"
+        ],
+        "valid": true
+      },
+      {
+        "text": "PS-04A firmware_applicability: 3.2.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "b0a4f15c-0749-478f-9e5b-df49cae6d360"
+        ],
+        "valid": true
+      },
+      {
+        "text": "PS-04 replaced_by: PS-04A.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "350e0fd0-c67c-4b73-9821-12b11e5f440a"
+        ],
+        "valid": true
+      },
+      {
+        "text": "PS-04A maximum_pressure: 200 bar.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "248d5e33-b213-45fd-8c1e-819bf0fd053a"
+        ],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "VERIFIED"
+  },
+  {
+    "question": "Which components connect directly to the HCS controller, according to the hydraulic schematic?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "What action is required if alarm A17 persists for more than 10 seconds?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Under what circumstances must the controller not be reset?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "What was the operating pressure threshold before software revision 3.2, and what changed it?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Which alarm is associated with a pressure sensor reading below 150 bar?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "According to the component register, what is the location of the isolation valve IV-21?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Does the training slide deck introduce any component or alarm not found in the manuals?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "What sensor ID appears on the diagnostics screenshot, and does it match a known component?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Per the revision history, when did software revision 3.2 take effect, and what changed alongside it?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "What does sensor_ps04a_threshold_bar in the configuration export correspond to in the operator manual's terminology?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Does the 200 bar threshold apply to all Aegis HCS units, or only some?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Is PS-04 the same as PS-40?",
+    "decision": "VERIFIED",
+    "retrieved_evidence_ids": [
+      "ecd0030b-3369-4c6f-bbc6-82024ce5945e",
+      "350e0fd0-c67c-4b73-9821-12b11e5f440a"
+    ],
+    "claims": [
+      {
+        "text": "PS-04 firmware_applicability: 3.2.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "ecd0030b-3369-4c6f-bbc6-82024ce5945e"
+        ],
+        "valid": true
+      },
+      {
+        "text": "PS-04 replaced_by: PS-04A.",
+        "type": "FACTUAL",
+        "evidence_ids": [
+          "350e0fd0-c67c-4b73-9821-12b11e5f440a"
+        ],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "VERIFIED"
+  },
+  {
+    "question": "What was the pressure limit before revision 3.2?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "What is the maximum continuous operating temperature of PS-04A?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "What is the calibration interval for the electrical system diagram's voltage sensor?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Who approved engineering bulletin ECN-1058?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "What is the mean time between failures for the isolation valve IV-21?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  },
+  {
+    "question": "Is the Aegis Series-7 HCS compatible with a 3-phase 400V supply?",
+    "decision": "INSUFFICIENT_EVIDENCE",
+    "retrieved_evidence_ids": [],
+    "claims": [
+      {
+        "text": "The supplied documentation does not establish the requested value.",
+        "type": "ABSTENTION",
+        "evidence_ids": [],
+        "valid": true
+      }
+    ],
+    "ambiguity_reason": "INSUFFICIENT_EVIDENCE"
+  }
+]
